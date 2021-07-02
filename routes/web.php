@@ -19,7 +19,7 @@ Route::get('/', function () {
 
 Route::get('courses', function () {
     return view('course');
-});
+})->name('courses');
 Route::get('python', function () {
     return view('python');
-});
+})->name('python');

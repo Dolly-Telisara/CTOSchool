@@ -1,7 +1,10 @@
 @extends('theme_layout.app')
-@section('title', 'home')
-@section('content')
-    
+@section('description', 'Share text and photos with your friends and have fun')
+@section('keywords', 'ctoschool, sharing text, text, sharing photo, photo,')
+@section('title', config('app.name') ." - Home")
+
+
+@section('content')   
  <!-- CATEGORIES CONTENT -->
 <section id="categories-content" class="categories-content" style="background-color:white;">
     <div class="container">

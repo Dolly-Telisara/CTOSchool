@@ -1,4 +1,6 @@
  @extends('theme_layout.app')
+ @section('description', 'Share text and photos with your friends and have fun')
+@section('keywords', 'ctoschool, online courses, online learning, sharing photo, photo,')
  @section('title', 'Upcoming Courses')
 
     @section('content')
@@ -54,11 +56,37 @@
                                     </div>
                                     <div class="meta-categories"><a href="#">Python</a></div>
                                     <div class="content-item">
-                                        <h2><a href="python
-                                        ">Python For Beginners</a></h2>
+                                        <h2><a href="python">Python For Beginners</a></h2>
                                         <div class="name-author">
                                             <ol>
                                                 <li>Starting point for an absolute beginner!</li>
+                                                <li>Covers all the important concepts of python.</li>
+                                                <li>A lot of hands on examples/assignments</li>
+                                                <li>15 days | 6 live sessions</li>
+                                                <li>1-1 interaction with each student</li>
+                                            </ol>
+                                        </div>
+                                    </div>
+                                    <div class="ft-item">
+                                        <div class="view-info"><a href="{{ route('python') }}" class="btn btn-primary" >Enter</a></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6 col-md-4">
+                                <div class="mc-item mc-item-2">
+                                    <div class="image-heading">
+                                        <img src="{{ asset('theme_files/images/feature/pythonAdvance.png') }}" alt="">
+                                    </div>
+                                    <div class="meta-categories">
+                                        <div><a href="#">Upcoming course</a></div>
+                                    </div>
+                                   
+                                    <div class="content-item">
+                                        <h2><a href="#">Python - Advanced</a></h2>
+                                        <div class="name-author">
+                                            <ol>
+                                                <li>Advanced features of the Python.</li>
                                                 <li>Covers all the important concepts of python.</li>
                                                 <li>A lot of hands on examples/assignments</li>
                                                 <li>15 days | 6 live sessions</li>
@@ -80,11 +108,10 @@
                                     <div class="meta-categories">
                                         <div><a href="#">Upcoming course</a></div>
                                     </div>
-                                   
                                     <div class="content-item">
                                         <h2><a href="#">Foundational ML & DL</a></h2>
                                         <div class="name-author">
-                                            <ol>
+                                        <ol>
                                                 <li>Build foundation for ml-dl.</li>
                                                 <li>10,000 ft overview of machine learning.</li>
                                                 <li>Learn few but most imp concepts in ml dl (supervised/unsupervised/cnn...)</li>
@@ -123,6 +150,59 @@
                                     </div>
                                 </div>
                             </div>
+                                 
+                            <div class="col-sm-6 col-md-4">
+                                <div class="mc-item mc-item-2">
+                                    <div class="image-heading">
+                                        <img src="{{ asset('theme_files/images/feature/img-1.jpg') }}" alt="">
+                                    </div>
+                                    <div class="meta-categories">
+                                        <div><a href="#">Upcoming course</a></div>
+                                    </div>
+                                    <div class="content-item">
+                                        <h2><a href="#">Blockchain 101</a></h2>
+                                        <div class="name-author">
+                                            <ol>
+                                                <li>Foundational course for anyone</li>
+                                                <li>Learn how blockchain works and its usescases</li>
+                                                <li>Get to know different types of blockchains</li>
+                                                <li>Almost zero programming</li>
+                                                <li>2 Week</li>
+                                            </ol>
+                                        </div>
+                                    </div>
+                                    <div class="ft-item">
+                                        <div class="view-info"><a href="https://forms.gle/p7BcowXRDuM7UQB26" class="btn btn-primary" target="_blank">Register Your Interest</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-sm-6 col-md-4">
+                                <div class="mc-item mc-item-2">
+                                    <div class="image-heading">
+                                        <img src="{{ asset('theme_files/images/feature/img-1.jpg') }}" alt="">
+                                    </div>
+                                    <div class="meta-categories">
+                                        <div><a href="#">Upcoming course</a></div>
+                                    </div>
+                                    <div class="content-item">
+                                        <h2><a href="#">Blockchain 101</a></h2>
+                                        <div class="name-author">
+                                            <ol>
+                                                <li>Foundational course for anyone</li>
+                                                <li>Learn how blockchain works and its usescases</li>
+                                                <li>Get to know different types of blockchains</li>
+                                                <li>Almost zero programming</li>
+                                                <li>2 Week</li>
+                                            </ol>
+                                        </div>
+                                    </div>
+                                    <div class="ft-item">
+                                        <div class="view-info"><a href="https://forms.gle/p7BcowXRDuM7UQB26" class="btn btn-primary" target="_blank">Register Your Interest</a></div>
+                                    </div>
+                                </div>
+                            </div>
+
 
                         </div>
                     </div>

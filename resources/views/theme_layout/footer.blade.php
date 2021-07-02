@@ -1,6 +1,6 @@
  <!-- FOOTER -->
     <footer id="footer" class="footer">
-        <div class="first-footer">
+        <!-- <div class="first-footer">
             <div class="container">
                 <div class="row">
                     
@@ -49,11 +49,8 @@
             </div>
 
             <div class="overlay-color-3"></div>
-            </div>
-        </div>
-        </div>
-    </div>
-</div>
+        </div> -->
+        
 
         <div class="second-footer">
             <div class="container">

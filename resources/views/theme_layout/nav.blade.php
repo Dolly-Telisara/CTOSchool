@@ -8,10 +8,9 @@
 
 <!-- MENU -->
 <ul class="menu">
-    <li><a href="/">Home</a></li>
-    <li class="menu-item-has-children">
-        <a href="courses">Courses</a>   
-    </li>
+    <li class="current-menu-item"><a href="/">Home</a></li>
+    <li class="menu-item-has-children"> <a href="{{ route('courses') }}">Courses</a></li>
  </ul>   
+
 <!-- END / MENU -->
 

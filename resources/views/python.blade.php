@@ -1,5 +1,7 @@
 @extends('theme_layout.app')
- @section('title', 'Upcoming Courses')
+@section('description', 'Share text and photos with your friends and have fun')
+@section('keywords', 'ctoschool, python for beginners, python, online course, photo,')
+ @section('title', 'Python for Beginners')
 
     @section('content')
 
@@ -19,7 +21,7 @@
      <section class="page-control">
         <div class="container">
             <div class="page-info">
-                <a href="/"><i class="icon md-arrow-left"></i>Back to home</a>
+                <a href="/courses"><i class="icon md-arrow-left"></i>Back to courses</a>
             </div>
         </div>
     </section>
